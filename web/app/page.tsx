@@ -1,6 +1,10 @@
+import Navbar from "../components/Navbar";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
+      <Navbar />
+
       <section className="mx-auto flex min-h-screen max-w-6xl flex-col justify-center px-6 py-16">
         <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
           Trip Mosaic
@@ -17,4 +21,4 @@ export default function Home() {
       </section>
     </main>
   );
-}	
+}
