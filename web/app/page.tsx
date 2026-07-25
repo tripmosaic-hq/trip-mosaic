@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
-
-import Navbar from "../components/Navbar";
 import Features from "../components/Features";
 
-export default function Home() {    <main className="min-h-screen bg-slate-950 text-white">
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-slate-950 text-white">
       <Navbar />
 
       <section className="mx-auto flex min-h-screen max-w-6xl flex-col justify-center px-6 py-16">
@@ -20,6 +20,8 @@ export default function Home() {    <main className="min-h-screen bg-slate-950 t
           travel business with a modern AI-first platform.
         </p>
       </section>
+
+      <Features />
     </main>
   );
 }
