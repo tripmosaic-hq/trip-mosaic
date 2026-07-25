@@ -1,8 +1,9 @@
 import Navbar from "../components/Navbar";
 
-export default function Home() {
-  return (
-    <main className="min-h-screen bg-slate-950 text-white">
+import Navbar from "../components/Navbar";
+import Features from "../components/Features";
+
+export default function Home() {    <main className="min-h-screen bg-slate-950 text-white">
       <Navbar />
 
       <section className="mx-auto flex min-h-screen max-w-6xl flex-col justify-center px-6 py-16">
