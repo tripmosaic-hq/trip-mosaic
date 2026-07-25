@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Features from "../components/Features";
 import Pricing from "../components/Pricing";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
 
       <Features />
       <Pricing />
+      <Testimonials />
     </main>
   );
 }
