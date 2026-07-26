@@ -2,103 +2,90 @@
 
 import { useState } from "react";
 
+const navLinks = [
+  { label: "Home", href: "#home" },
+  { label: "Experiences", href: "#experiences" },
+  { label: "Why Us", href: "#why-us" },
+  { label: "About", href: "#about" },
+  { label: "Contact", href: "#contact" },
+];
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 text-white backdrop-blur">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#" className="text-xl font-bold tracking-wide">
-          Trip Mosaic
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-amber-300/15 bg-black/90 backdrop-blur-xl">
+      <nav
+        className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8"
+        aria-label="Main navigation"
+      >
+        <a href="#home" onClick={closeMenu} className="group">
+          <p className="font-serif text-xl font-semibold tracking-[0.18em] text-amber-300 sm:text-2xl">
+            TRIP MOSAIC
+          </p>
+          <p className="mt-1 hidden text-[10px] uppercase tracking-[0.2em] text-stone-400 sm:block">
+            Mountains. Memories. Crafted.
+          </p>
         </a>
 
-        <div className="hidden items-center gap-8 text-sm text-slate-300 md:flex">
-          <a href="#features" className="transition hover:text-white">
-            Features
-          </a>
+        <div className="hidden items-center gap-7 lg:flex">
+          {navLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className="text-sm font-medium text-stone-300 transition hover:text-amber-300"
+            >
+              {link.label}
+            </a>
+          ))}
 
-          <a href="#pricing" className="transition hover:text-white">
-            Pricing
-          </a>
-
-          <a href="#about" className="transition hover:text-white">
-            About
+          <a
+            href="https://wa.me/917000114755?text=Namaste%20Trip%20Mosaic%2C%20mujhe%20trip%20plan%20karni%20hai."
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full bg-amber-300 px-5 py-2.5 text-sm font-bold text-black transition hover:bg-amber-200"
+          >
+            Plan on WhatsApp
           </a>
         </div>
 
-        <a
-          href="#get-started"
-          className="hidden rounded-full bg-cyan-400 px-6 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300 md:block"
-        >
-          Get Started
-        </a>
-
         <button
           type="button"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle navigation menu"
+          onClick={() => setMenuOpen((current) => !current)}
+          className="rounded-lg border border-amber-300/30 p-2 text-amber-300 lg:hidden"
           aria-expanded={menuOpen}
-          className="rounded-lg border border-white/10 p-2 transition hover:bg-white/10 md:hidden"
+          aria-label="Toggle navigation menu"
         >
-          {menuOpen ? (
-            <svg
-              className="h-6 w-6"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path d="M6 6l12 12M18 6L6 18" />
-            </svg>
-          ) : (
-            <svg
-              className="h-6 w-6"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path d="M4 7h16M4 12h16M4 17h16" />
-            </svg>
-          )}
+          <span className="block h-0.5 w-6 bg-current" />
+          <span className="my-1.5 block h-0.5 w-6 bg-current" />
+          <span className="block h-0.5 w-6 bg-current" />
         </button>
       </nav>
 
       {menuOpen && (
-        <div className="border-t border-white/10 bg-slate-950 px-6 pb-6 md:hidden">
-          <div className="mx-auto flex max-w-6xl flex-col gap-4 pt-5 text-slate-300">
-            <a
-              href="#features"
-              onClick={closeMenu}
-              className="transition hover:text-white"
-            >
-              Features
-            </a>
+        <div className="border-t border-amber-300/15 bg-black px-5 py-5 lg:hidden">
+          <div className="mx-auto flex max-w-7xl flex-col gap-4">
+            {navLinks.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                onClick={closeMenu}
+                className="py-1 text-base font-medium text-stone-200 transition hover:text-amber-300"
+              >
+                {link.label}
+              </a>
+            ))}
 
             <a
-              href="#pricing"
+              href="https://wa.me/917000114755?text=Namaste%20Trip%20Mosaic%2C%20mujhe%20trip%20plan%20karni%20hai."
+              target="_blank"
+              rel="noreferrer"
               onClick={closeMenu}
-              className="transition hover:text-white"
+              className="mt-2 rounded-full bg-amber-300 px-5 py-3 text-center font-bold text-black"
             >
-              Pricing
-            </a>
-
-            <a
-              href="#about"
-              onClick={closeMenu}
-              className="transition hover:text-white"
-            >
-              About
-            </a>
-
-            <a
-              href="#get-started"
-              onClick={closeMenu}
-              className="mt-2 rounded-full bg-cyan-400 px-6 py-3 text-center font-semibold text-slate-950 transition hover:bg-cyan-300"
-            >
-              Get Started
+              Plan on WhatsApp
             </a>
           </div>
         </div>
