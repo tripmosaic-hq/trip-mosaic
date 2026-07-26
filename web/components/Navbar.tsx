@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import Image from "next/image";
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "Experiences", href: "#experiences" },
@@ -21,14 +21,25 @@ export default function Navbar() {
         className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8"
         aria-label="Main navigation"
       >
-        <a href="#home" onClick={closeMenu} className="group">
-          <p className="font-serif text-xl font-semibold tracking-[0.18em] text-amber-300 sm:text-2xl">
-            TRIP MOSAIC
-          </p>
-          <p className="mt-1 hidden text-[10px] uppercase tracking-[0.2em] text-stone-400 sm:block">
-            Mountains. Memories. Crafted.
-          </p>
-        </a>
+      <a href="#home" onClick={closeMenu} className="flex items-center gap-3">
+  <Image
+    src="/logo.png"
+    alt="Trip Mosaic"
+    width={52}
+    height={52}
+    priority
+  />
+
+  <div>
+    <p className="font-serif text-xl font-semibold tracking-[0.18em] text-amber-300 sm:text-2xl">
+      TRIP MOSAIC
+    </p>
+
+    <p className="mt-1 hidden text-[10px] uppercase tracking-[0.2em] text-stone-400 sm:block">
+      Mountains. Memories. Crafted.
+    </p>
+  </div>
+</a>
 
         <div className="hidden items-center gap-7 lg:flex">
           {navLinks.map((link) => (
