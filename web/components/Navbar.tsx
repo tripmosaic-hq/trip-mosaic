@@ -23,7 +23,7 @@ export default function Navbar() {
       >
       <a href="#home" onClick={closeMenu} className="flex items-center gap-3">
   <Image
-    src="/logo.png"
+    src="/IMG-20260726-WA0000.jpg"
     alt="Trip Mosaic"
     width={52}
     height={52}
