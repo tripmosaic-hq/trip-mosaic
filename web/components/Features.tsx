@@ -1,4 +1,5 @@
-// Trigger Vercel deployment packages = [  {
+// const packages = [
+  {
     category: "TREK",
     title: "Valley of Flowers & Hemkund",
     description:
