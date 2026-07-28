@@ -1,61 +1,119 @@
+const whatsappUrl =
+  "https://wa.me/919183269700?text=Hi%20Trip%20Mosaic%2C%20I%20want%20help%20planning%20my%20trip.";
+
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-slate-950 px-6 py-12 text-white">
-      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-4">
-        <div className="md:col-span-2">
-          <h2 className="text-2xl font-bold">Trip Mosaic</h2>
+    <footer className="bg-[#050505] px-6 pb-32 pt-16 text-white">
+      <div className="mx-auto max-w-6xl">
+        <div className="grid gap-12 border-b border-amber-400/20 pb-12 md:grid-cols-3">
+          <div>
+            <p className="font-serif text-3xl font-semibold text-amber-400">
+              TRIP MOSAIC
+            </p>
 
-          <p className="mt-4 max-w-md leading-7 text-slate-400">
-            Plan journeys, manage travellers, track bookings and grow your
-            travel business from one modern platform.
+            <p className="mt-2 text-xs uppercase tracking-[0.25em] text-neutral-500">
+              Mountains. Memories. Crafted.
+            </p>
+
+            <p className="mt-6 max-w-md leading-7 text-neutral-400">
+              Thoughtfully planned Himalayan journeys built around real
+              experience, trusted partners, transparent communication and
+              personal support.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-serif text-2xl font-semibold">
+              Explore
+            </h3>
+
+            <nav className="mt-6 flex flex-col gap-4 text-neutral-400">
+              <a href="#home" className="hover:text-amber-400">
+                Home
+              </a>
+              <a href="#experiences" className="hover:text-amber-400">
+                Flagship Journeys
+              </a>
+              <a href="#why-us" className="hover:text-amber-400">
+                Why Trip Mosaic
+              </a>
+              <a href="#about" className="hover:text-amber-400">
+                How We Work
+              </a>
+              <a href="#contact" className="hover:text-amber-400">
+                Contact
+              </a>
+            </nav>
+          </div>
+
+          <div>
+            <h3 className="font-serif text-2xl font-semibold">
+              Contact
+            </h3>
+
+            <div className="mt-6 space-y-4 text-neutral-400">
+              <a
+                href="tel:+919183269700"
+                className="block hover:text-amber-400"
+              >
+                +91 91832 69700
+              </a>
+
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="block hover:text-amber-400"
+              >
+                Enquire on WhatsApp
+              </a>
+
+              <p>Direct consultation and human-reviewed planning.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid gap-6 border-b border-amber-400/20 py-10 md:grid-cols-3">
+          <div>
+            <h4 className="font-semibold text-amber-400">
+              Booking Terms
+            </h4>
+            <p className="mt-3 text-sm leading-6 text-neutral-500">
+              Final services, prices and availability are confirmed through the
+              written quotation shared before booking.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-amber-400">
+              Cancellation & Refund
+            </h4>
+            <p className="mt-3 text-sm leading-6 text-neutral-500">
+              Cancellation and refund conditions depend on the selected journey
+              and will be communicated clearly before payment.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-amber-400">
+              Privacy
+            </h4>
+            <p className="mt-3 text-sm leading-6 text-neutral-500">
+              Traveller information is used only for enquiry handling, trip
+              planning, booking coordination and necessary communication.
+            </p>
+          </div>
+        </div>
+
+        <div className="pt-8 text-sm text-neutral-600 md:flex md:items-center md:justify-between">
+          <p>© 2026 Trip Mosaic. All rights reserved.</p>
+
+          <p className="mt-3 md:mt-0">
+            Travel with trust, clarity and care.
           </p>
         </div>
-
-        <div>
-          <h3 className="font-semibold">Product</h3>
-
-          <div className="mt-4 flex flex-col gap-3 text-slate-400">
-            <a href="#features" className="transition hover:text-white">
-              Features
-            </a>
-
-            <a href="#pricing" className="transition hover:text-white">
-              Pricing
-            </a>
-
-            <a href="#get-started" className="transition hover:text-white">
-              Get Started
-            </a>
-          </div>
-        </div>
-
-        <div>
-          <h3 className="font-semibold">Company</h3>
-
-          <div className="mt-4 flex flex-col gap-3 text-slate-400">
-            <a href="#about" className="transition hover:text-white">
-              About
-            </a>
-
-            <a
-              href="mailto:hello@tripmosaic.com"
-              className="transition hover:text-white"
-            >
-              Contact
-            </a>
-
-            <a href="#" className="transition hover:text-white">
-              Privacy Policy
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="mx-auto mt-10 flex max-w-6xl flex-col gap-3 border-t border-white/10 pt-6 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-        <p>© 2026 Trip Mosaic. All rights reserved.</p>
-
-        <p>Built with ❤️ for modern travel teams.</p>
       </div>
     </footer>
   );
+}
 }
