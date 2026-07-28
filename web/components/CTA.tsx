@@ -1,36 +1,52 @@
+const whatsappUrl =
+  "https://wa.me/919183269700?text=Hi%20Trip%20Mosaic%2C%20I%20want%20help%20planning%20my%20trip.";
+
 export default function CTA() {
   return (
-    <section id="get-started" className="bg-slate-950 px-6 py-24 text-white">
-      <div className="mx-auto max-w-6xl">
-        <div className="overflow-hidden rounded-3xl border border-cyan-400/30 bg-cyan-400/10 px-6 py-16 text-center sm:px-12">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
-            Get Started
-          </p>
+    <section
+      id="contact"
+      className="bg-[#050505] px-6 py-20 text-white"
+    >
+      <div className="mx-auto max-w-6xl rounded-[2rem] border border-amber-400/25 bg-[#111111] p-8 md:p-12">
+        <p className="text-xs font-semibold uppercase tracking-[0.32em] text-amber-400">
+          Contact Trip Mosaic
+        </p>
 
-          <h2 className="mx-auto mt-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-6xl">
-            Ready to run your travel business smarter?
-          </h2>
+        <h2 className="mt-4 max-w-4xl font-serif text-4xl font-semibold leading-tight md:text-6xl">
+          Ready to plan a journey
+          <span className="block text-amber-400">
+            built around you?
+          </span>
+        </h2>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-            Bring planning, travellers, bookings and insights together in one
-            powerful platform.
-          </p>
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-neutral-400">
+          Share your destination, dates, number of travellers and preferences.
+          We will review your enquiry and guide you through the next steps
+          clearly.
+        </p>
 
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a
-              href="#"
-              className="w-full rounded-full bg-cyan-400 px-7 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300 sm:w-auto"
-            >
-              Start Free
-            </a>
+        <div className="mt-10 grid gap-5 md:grid-cols-2">
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="flex min-h-24 items-center justify-center rounded-3xl bg-amber-400 px-7 py-5 text-center text-lg font-semibold text-black"
+          >
+            Plan on WhatsApp
+          </a>
 
-            <a
-              href="#features"
-              className="w-full rounded-full border border-white/15 px-7 py-3 font-semibold text-white transition hover:border-white/30 hover:bg-white/5 sm:w-auto"
-            >
-              Explore Features
-            </a>
-          </div>
+          <a
+            href="tel:+919183269700"
+            className="flex min-h-24 items-center justify-center rounded-3xl border border-amber-400/40 px-7 py-5 text-center text-lg font-semibold text-white"
+          >
+            Call +91 91832 69700
+          </a>
+        </div>
+
+        <div className="mt-8 grid gap-4 text-sm leading-6 text-neutral-500 md:grid-cols-3">
+          <p>✓ Direct consultation and human review</p>
+          <p>✓ Clear inclusions, exclusions and conditions</p>
+          <p>✓ No pressure selling or misleading promises</p>
         </div>
       </div>
     </section>
