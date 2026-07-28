@@ -58,7 +58,12 @@ export default function Footer() {
               >
                 +91 91832 69700
               </a>
-
+<a
+  href="mailto:tripmosaic@gmail.com"
+  className="block hover:text-amber-400"
+>
+  tripmosaic@gmail.com
+</a>
               <a
                 href={whatsappUrl}
                 target="_blank"
