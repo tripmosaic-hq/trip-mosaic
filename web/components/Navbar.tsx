@@ -31,7 +31,7 @@ export default function Navbar() {
   />
 
   <div>
-    <p className="font-serif text-xl font-semibold tracking-[0.18em] text-amber-300 sm:text-2xl">
+    <p className="font-serif text-2xl md:text-3xl font-bold tracking-[0.18em] text-amber-300 sm:text-2xl">
       TRIP MOSAIC
     </p>
 
