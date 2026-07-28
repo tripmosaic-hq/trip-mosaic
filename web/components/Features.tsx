@@ -1,70 +1,101 @@
-const features = [
+const packages = [
   {
-    title: "AI Trip Planner",
+    category: "TREK",
+    title: "Valley of Flowers & Hemkund",
     description:
-      "Create personalized itineraries faster with intelligent recommendations.",
+      "A carefully planned Himalayan journey through flower-filled valleys and the sacred Hemkund Sahib route.",
   },
   {
-    title: "Traveller Management",
+    category: "BIKE EXPEDITION",
+    title: "Spiti Valley Bike Expedition",
     description:
-      "Keep traveller profiles, preferences and important details organized.",
+      "Ride through high-altitude roads, remote villages and dramatic landscapes with trusted ground support.",
   },
   {
-    title: "Booking Management",
+    category: "TREK",
+    title: "Chopta–Tungnath–Chandrashila",
     description:
-      "Track flights, hotels, activities and confirmations in one dashboard.",
+      "A short Himalayan escape featuring ancient Tungnath Temple and panoramic Chandrashila summit views.",
   },
   {
-    title: "Payment Tracking",
+    category: "FAMILY HOLIDAY",
+    title: "Kashmir Premium",
     description:
-      "Monitor invoices, payments and outstanding balances with clarity.",
+      "A comfortable Kashmir experience designed around scenic stays, transparent planning and personal support.",
   },
   {
-    title: "Analytics Dashboard",
+    category: "INTERNATIONAL TREK",
+    title: "Everest Base Camp",
     description:
-      "Understand trips, bookings and performance with useful insights.",
-  },
-  {
-    title: "Cloud Sync",
-    description:
-      "Access your travel operations securely across devices and teams.",
+      "A legendary Himalayan expedition planned with preparation, safety guidance and reliable local coordination.",
   },
 ];
 
+const whatsappNumber = "919183269700";
+
 export default function Features() {
   return (
-    <section id="features" className="bg-slate-900 px-6 py-24 text-white">
+    <section
+      id="experiences"
+      className="bg-[#080808] px-6 py-20 text-white"
+    >
       <div className="mx-auto max-w-6xl">
-        <div className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
-            Features
-          </p>
+        <p className="text-xs font-semibold uppercase tracking-[0.32em] text-amber-400">
+          Flagship Journeys
+        </p>
 
-          <h2 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">
-            Everything your travel business needs.
-          </h2>
+        <h2 className="mt-4 max-w-4xl font-serif text-4xl font-semibold leading-tight md:text-6xl">
+          Five journeys. One promise:
+          <span className="block text-amber-400">
+            travel with trust.
+          </span>
+        </h2>
 
-          <p className="mt-5 text-lg leading-8 text-slate-300">
-            Plan smarter, manage faster and keep every journey connected from
-            enquiry to completion.
-          </p>
-        </div>
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-neutral-400">
+          Selected Himalayan experiences built around verified partners,
+          transparent communication, thoughtful planning and personal support.
+        </p>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {features.map((feature) => (
-            <article
-              key={feature.title}
-              className="rounded-3xl border border-white/10 bg-white/5 p-6 transition hover:-translate-y-1 hover:border-cyan-400/50 hover:bg-white/10"
-            >
-              <div className="mb-5 h-10 w-10 rounded-2xl bg-cyan-400/15 ring-1 ring-cyan-400/30" />
+        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {packages.map((item, index) => {
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+              `Hi Trip Mosaic, I want details about ${item.title}.`
+            )}`;
 
-              <h3 className="text-xl font-semibold">{feature.title}</h3>
+            return (
+              <article
+                key={item.title}
+                className="flex min-h-[330px] flex-col rounded-3xl border border-amber-400/20 bg-[#111111] p-7"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-semibold tracking-[0.2em] text-amber-400">
+                    {item.category}
+                  </span>
 
-              <p className="mt-3 leading-7 text-slate-300">
-                {feature.description}
-              </p>
-            </article>
-          ))}
+                  <span className="font-serif text-3xl text-amber-400/40">
+                    0{index + 1}
+                  </span>
+                </div>
+
+                <h3 className="mt-8 font-serif text-3xl font-semibold leading-tight">
+                  {item.title}
+                </h3>
+
+                <p className="mt-5 flex-1 leading-7 text-neutral-400">
+                  {item.description}
+                </p>
+
+                <a
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-8 inline-flex items-center justify-center rounded-full bg-amber-400 px-6 py-4 font-semibold text-black transition hover:bg-amber-300"
+                >
+                  Enquire on WhatsApp
+                </a>
+              </article>
+            );
+          })}
         </div>
       </div>
     </section>
