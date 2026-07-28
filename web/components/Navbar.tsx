@@ -31,7 +31,7 @@ export default function Navbar() {
   />
 
   <div>
-    <p className="font-serif text-2xl md:text-3xl font-bold tracking-[0.18em] text-amber-300 sm:text-2xl">
+    <p className="font-serif text-2xl md:text-3xl font-black tracking-[0.18em] text-amber-300 sm:text-2xl">
       TRIP MOSAIC
     </p>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
           ))}
 
           <a
-            href="https://wa.me/917000114755?text=Namaste%20Trip%20Mosaic%2C%20mujhe%20trip%20plan%20karni%20hai."
+            href="https://wa.me/919183269700?text=Namaste%20Trip%20Mosaic%2C%20mujhe%20trip%20plan%20karni%20hai."
             target="_blank"
             rel="noreferrer"
             className="rounded-full bg-amber-300 px-5 py-2.5 text-sm font-bold text-black transition hover:bg-amber-200"
