@@ -199,16 +199,39 @@ export default function ValleyOfFlowersPage() {
               <img src={photo.src} alt={photo.alt} loading="lazy" className="h-72 w-full object-cover sm:h-96" />
               <figcaption className="p-5">
                 <p className="font-serif text-xl font-semibold">{photo.caption}</p>
-                <p className="mt-2 text-sm text-stone-500">
-                  Photo: {photo.credit} · CC BY-SA 4.0 ·{" "}
-                  <a href={photo.source} target="_blank" rel="noreferrer" className="text-amber-700 underline underline-offset-4">Wikimedia Commons</a>
-                </p>
               </figcaption>
             </figure>
           ))}
         </div>
         <p className="mt-4 text-xs leading-5 text-stone-500">
-          Hero photo: Rohit Sharma, CC BY-SA 4.0, Wikimedia Commons. Images are displayed without implying photographer endorsement.
+          Photo credits:{" "}
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Valley_of_flowers_national_park,_Uttarakhand,_India_03.jpg"
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4"
+          >
+            Rohit Sharma
+          </a>
+          ,{" "}
+          <a
+            href={photos[0].source}
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4"
+          >
+            Manas Jaitly
+          </a>{" "}
+          &{" "}
+          <a
+            href={photos[1].source}
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4"
+          >
+            Wiki maddymadhavan
+          </a>{" "}
+          · CC BY-SA 4.0 · Photos sourced from Wikimedia Commons.
         </p>
       </section>
 
