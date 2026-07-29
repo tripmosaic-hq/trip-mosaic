@@ -19,6 +19,7 @@ const packages = [
     title: "Chopta–Tungnath–Chandrashila",
     description:
       "A short Himalayan escape featuring ancient Tungnath Temple and panoramic Chandrashila summit views.",
+    href: "/chopta-tungnath",
   },
   {
     category: "FAMILY HOLIDAY",
