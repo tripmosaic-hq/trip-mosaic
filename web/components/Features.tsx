@@ -31,6 +31,7 @@ const packages = [
   {
     category: "INTERNATIONAL TREK",
     title: "Everest Base Camp",
+    href: "/everest-base-camp",
     description:
       "A legendary Himalayan expedition planned with preparation, safety guidance and reliable local coordination.",
   },
