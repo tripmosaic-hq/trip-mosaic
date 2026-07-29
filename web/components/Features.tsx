@@ -35,10 +35,15 @@ const packages = [
     description:
       "A legendary Himalayan expedition planned with preparation, safety guidance and reliable local coordination.",
   },
-];
-
+{
+  category: "TREK",
+  title: "Hampta Pass Trek",
+  description:
+    "A 5-day crossover trek through green valleys, Hampta Pass and the dramatic landscapes of Lahaul.",
+  href: "/hampta-pass",
+},
 const whatsappNumber = "919183269700";
-
+];
 export default function Features() {
   return (
     <section
