@@ -42,6 +42,13 @@ const packages = [
     "A 5-day crossover trek through green valleys, Hampta Pass and the dramatic landscapes of Lahaul.",
   href: "/hampta-pass",
 },
+  {
+  category: "INTERNATIONAL TREK",
+  title: "Annapurna Base Camp",
+  description:
+    "A 7-day Nepal trek through Gurung villages, Machhapuchhre Base Camp and the Annapurna Sanctuary.",
+  href: "/annapurna-base-camp",
+},
 ];
 
 const whatsappNumber = "919183269700";
