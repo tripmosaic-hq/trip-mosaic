@@ -49,9 +49,9 @@ export default function Features() {
         </p>
 
         <h2 className="mt-4 max-w-4xl font-serif text-4xl font-semibold leading-tight md:text-6xl">
-          Five journeys. One promise:
+          Every journeys. One promise:
           <span className="block text-amber-400">
-            travel with trust.
+            Travel with trust.
           </span>
         </h2>
 
