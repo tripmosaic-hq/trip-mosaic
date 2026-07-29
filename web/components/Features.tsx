@@ -5,6 +5,7 @@ const packages = [
     title: "Valley of Flowers & Hemkund",
     description:
       "A carefully planned Himalayan journey through flower-filled valleys and the sacred Hemkund Sahib route.",
+    href: "/valley-of-flowers",
   },
   {
     category: "BIKE EXPEDITION",
@@ -87,12 +88,12 @@ export default function Features() {
                 </p>
 
                 <a
-                  href={whatsappUrl}
-                  target="_blank"
-                  rel="noreferrer"
+                  href={item.href ?? whatsappUrl}
+                  target={item.href ? undefined : "_blank"}
+                  rel={item.href ? undefined : "noreferrer"}
                   className="mt-8 inline-flex items-center justify-center rounded-full bg-amber-400 px-6 py-4 font-semibold text-black transition hover:bg-amber-300"
                 >
-                  Enquire on WhatsApp
+                  {item.href ? "View Itinerary" : "Enquire on WhatsApp"}
                 </a>
               </article>
             );
