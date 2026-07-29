@@ -54,11 +54,12 @@ export default function Pricing() {
               transparent communication and personal support.
             </p>
           </div>
-
-          <div className="rounded-3xl border border-amber-400/25 bg-[#111111] p-7">
-            <p className="font-serif text-2xl leading-relaxed text-neutral-200">
-              “Trip Mosaic ka business package se nahi, trust se chalega.”
-            </p>
+<div className="rounded-3xl border-2 border-amber-400/50 bg-amber-400/10 p-7 shadow-[0_0_35px_rgba(251,191,36,0.08)]">
+  <p className="font-serif text-3xl font-black leading-tight text-white md:text-4xl">
+    “Trip Mosaic का बिजनेस पैकेज से नहीं,{" "}
+    <span className="text-amber-400">विश्वास</span> से चलता है।”
+  </p>
+          
 
             <p className="mt-5 text-sm leading-6 text-neutral-500">
               No pressure selling. No misleading promises. Important travel
