@@ -49,6 +49,13 @@ const packages = [
     "A 7-day Nepal trek through Gurung villages, Machhapuchhre Base Camp and the Annapurna Sanctuary.",
   href: "/annapurna-base-camp",
 },
+ {
+  category: "PILGRIMAGE",
+  title: "Do Dham Yatra",
+  description:
+    "A 5-day sacred journey from Haridwar covering Kedarnath, Badrinath and important Garhwal pilgrimage sites.",
+  href: "/do-dham-yatra",
+}, 
 ];
 
 const whatsappNumber = "919183269700";
