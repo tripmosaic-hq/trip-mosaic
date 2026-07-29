@@ -12,6 +12,7 @@ const packages = [
     title: "Spiti Valley Bike Expedition",
     description:
       "Ride through high-altitude roads, remote villages and dramatic landscapes with trusted ground support.",
+    href: "/spiti-bike-expedition",
   },
   {
     category: "TREK",
