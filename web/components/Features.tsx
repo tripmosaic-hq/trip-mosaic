@@ -42,8 +42,9 @@ const packages = [
     "A 5-day crossover trek through green valleys, Hampta Pass and the dramatic landscapes of Lahaul.",
   href: "/hampta-pass",
 },
-const whatsappNumber = "919183269700";
 ];
+
+const whatsappNumber = "919183269700";
 export default function Features() {
   return (
     <section
