@@ -24,6 +24,7 @@ const packages = [
   {
     category: "FAMILY HOLIDAY",
     title: "Kashmir Premium",
+    href: "/kashmir-premium",
     description:
       "A comfortable Kashmir experience designed around scenic stays, transparent planning and personal support.",
   },
