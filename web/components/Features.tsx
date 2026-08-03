@@ -8,6 +8,27 @@ const packages = [
     href: "/valley-of-flowers",
   },
   {
+    category: "TREK",
+    title: "Har Ki Dun Trek",
+    description:
+      "A 7-day journey through ancient villages, forests, alpine meadows and the magnificent Valley of Gods.",
+    href: "/har-ki-dun",
+  },
+  {
+    category: "TREK",
+    title: "Kasol–Kheerganga Trek",
+    description:
+      "A beginner-friendly 3-day trek through Parvati Valley, mountain villages, waterfalls and pine forests.",
+    href: "/kasol-kheerganga",
+  },
+  {
+    category: "TREK",
+    title: "Kuari Pass Trek",
+    description:
+      "A 5-day Himalayan adventure through Joshimath, Tali Camp, Auli and the panoramic Kuari Pass.",
+    href: "/kuari-pass",
+  },
+  {
     category: "BIKE EXPEDITION",
     title: "Spiti Valley Bike Expedition",
     description:
@@ -19,46 +40,23 @@ const packages = [
     title: "Chopta–Tungnath–Chandrashila",
     description:
       "A short Himalayan escape featuring ancient Tungnath Temple and panoramic Chandrashila summit views.",
-    href: "/chopta-tungnath",
   },
   {
     category: "FAMILY HOLIDAY",
     title: "Kashmir Premium",
-    href: "/kashmir-premium",
     description:
       "A comfortable Kashmir experience designed around scenic stays, transparent planning and personal support.",
   },
   {
     category: "INTERNATIONAL TREK",
     title: "Everest Base Camp",
-    href: "/everest-base-camp",
     description:
       "A legendary Himalayan expedition planned with preparation, safety guidance and reliable local coordination.",
   },
-{
-  category: "TREK",
-  title: "Hampta Pass Trek",
-  description:
-    "A 5-day crossover trek through green valleys, Hampta Pass and the dramatic landscapes of Lahaul.",
-  href: "/hampta-pass",
-},
-  {
-  category: "INTERNATIONAL TREK",
-  title: "Annapurna Base Camp",
-  description:
-    "A 7-day Nepal trek through Gurung villages, Machhapuchhre Base Camp and the Annapurna Sanctuary.",
-  href: "/annapurna-base-camp",
-},
- {
-  category: "PILGRIMAGE",
-  title: "Do Dham Yatra",
-  description:
-    "A 5-day sacred journey from Haridwar covering Kedarnath, Badrinath and important Garhwal pilgrimage sites.",
-  href: "/do-dham-yatra",
-}, 
 ];
 
 const whatsappNumber = "919183269700";
+
 export default function Features() {
   return (
     <section
@@ -71,9 +69,9 @@ export default function Features() {
         </p>
 
         <h2 className="mt-4 max-w-4xl font-serif text-4xl font-semibold leading-tight md:text-6xl">
-          Every journeys. One promise:
+          Signature journeys. One promise:
           <span className="block text-amber-400">
-            Travel with trust.
+            travel with trust.
           </span>
         </h2>
 
@@ -99,7 +97,7 @@ export default function Features() {
                   </span>
 
                   <span className="font-serif text-3xl text-amber-400/40">
-                    0{index + 1}
+                    {String(index + 1).padStart(2, "0")}
                   </span>
                 </div>
 
