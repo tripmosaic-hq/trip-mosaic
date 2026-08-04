@@ -1,12 +1,16 @@
-const whatsappUrl =
-  "https://wa.me/919183269700?text=Hi%20Trip%20Mosaic%2C%20I%20want%20help%20planning%20my%20trip.";
+const CALL_NUMBER = "+919183269700";
+const WHATSAPP_NUMBER = "917389842730";
+
+const WHATSAPP_MESSAGE =
+  "Namaste Trip Mosaic, main website par trip details dekh raha/rahi hoon. Mujhe apni trip plan karni hai. Kripya guide karein.";
 
 export default function CTA() {
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
+    WHATSAPP_MESSAGE
+  )}`;
+
   return (
-    <section
-      id="contact"
-      className="bg-[#050505] px-6 py-20 text-white"
-    >
+    <section id="contact" className="bg-[#050505] px-6 py-20 text-white">
       <div className="mx-auto max-w-6xl rounded-[2rem] border border-amber-400/25 bg-[#111111] p-8 md:p-12">
         <p className="text-xs font-semibold uppercase tracking-[0.32em] text-amber-400">
           Contact Trip Mosaic
@@ -14,9 +18,7 @@ export default function CTA() {
 
         <h2 className="mt-4 max-w-4xl font-serif text-4xl font-semibold leading-tight md:text-6xl">
           Ready to plan a journey
-          <span className="block text-amber-400">
-            built around you?
-          </span>
+          <span className="block text-amber-400">built around you?</span>
         </h2>
 
         <p className="mt-6 max-w-3xl text-lg leading-8 text-neutral-400">
@@ -29,14 +31,14 @@ export default function CTA() {
           <a
             href={whatsappUrl}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="flex min-h-24 items-center justify-center rounded-3xl bg-amber-400 px-7 py-5 text-center text-lg font-semibold text-black"
           >
             Plan on WhatsApp
           </a>
 
           <a
-            href="tel:+919183269700"
+            href={`tel:${CALL_NUMBER}`}
             className="flex min-h-24 items-center justify-center rounded-3xl border border-amber-400/40 px-7 py-5 text-center text-lg font-semibold text-white"
           >
             Call +91 91832 69700
