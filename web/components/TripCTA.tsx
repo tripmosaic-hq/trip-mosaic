@@ -7,9 +7,13 @@ const PHONE = "+919183269700";
 export default function TripCTA({
   title = "Ready to plan your Himalayan journey?",
 }: TripCTAProps) {
-  const whatsappUrl =
-    "https://wa.me/919183269700?text=Namaste%20Trip%20Mosaic%2C%20I%20want%20to%20plan%20this%20journey.";
+  
+const whatsappMessage =
+  `TM-WEB | Hello Trip Mosaic, I’m interested in this itinerary listed on your website: ${title}. Please share the available dates, complete itinerary, inclusions, exclusions, pricing, and booking guidance.`;
 
+const whatsappUrl = `https://wa.me/917389842730?text=${encodeURIComponent(
+  whatsappMessage
+)}`;
   return (
     <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-12">
       <div className="rounded-3xl bg-black p-8 text-center text-white">
