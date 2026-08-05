@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 };
 
 const PHONE = "+919183269700";
-const WHATSAPP = `https://wa.me/919183269700?text=${encodeURIComponent(
-  "Namaste Trip Mosaic, mujhe Valley of Flowers & Hemkund Sahib 6D/5N trek ke baare mein jaankari chahiye."
+const WHATSAPP = `https://wa.me/917389842730?text=${encodeURIComponent(
+  "TM-WEB | Hello Trip Mosaic, I'm interested in the Valley of Flowers & Hemkund Sahib 6 Days / 5 Nights itinerary listed on your website. Please share the available dates, complete itinerary, inclusions, exclusions, pricing, and booking guidance."
 )}`;
 
 const heroImage =
