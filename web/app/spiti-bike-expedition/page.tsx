@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 };
 
 const PHONE = "+919183269700";
-const WHATSAPP = `https://wa.me/919183269700?text=${encodeURIComponent(
-  "Namaste Trip Mosaic, mujhe Spiti Valley Bike Expedition 8D/7N ke baare mein jaankari chahiye."
+const WHATSAPP = `https://wa.me/917389842730?text=${encodeURIComponent(
+  "TM-WEB | Hello Trip Mosaic, I'm interested in the Spiti Valley Bike Expedition 8 Days / 7 Nights itinerary listed on your website. Please share the available dates, complete itinerary, inclusions, exclusions, bike options, pricing, and booking guidance."
 )}`;
 
 const heroImage =
