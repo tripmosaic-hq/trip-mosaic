@@ -1,10 +1,10 @@
 const phoneNumber = "+919183269700";
 
 const whatsappMessage =
-  "Namaste Trip Mosaic, mujhe apni trip plan karni hai. Kripya guide karein.";
+  "TM-WEB | Hello Trip Mosaic, I’m planning my next journey through your website. Please suggest a thoughtfully crafted trip based on my destination, travel dates, number of travellers, and starting city.";
 
 export default function Hero() {
-  const whatsappUrl = `https://wa.me/919183269700?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/917389842730?text=${encodeURIComponent(
     whatsappMessage
   )}`;
 
