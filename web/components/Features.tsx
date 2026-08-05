@@ -55,7 +55,7 @@ const packages = [
   },
 ];
 
-const whatsappNumber = "919183269700";
+const whatsappNumber = "917389842730";
 
 export default function Features() {
   return (
@@ -83,10 +83,10 @@ export default function Features() {
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {packages.map((item, index) => {
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-              `Hi Trip Mosaic, I want details about ${item.title}.`
-            )}`;
-
-            return (
+              
+`TM-WEB | Hello Trip Mosaic, I’m interested in the ${item.title} package listed on your website. Please share the itinerary, inclusions, travel dates, pricing, and booking guidance.`
+     )}`;
+              return (
               <article
                 key={item.title}
                 className="flex min-h-[330px] flex-col rounded-3xl border border-amber-400/20 bg-[#111111] p-7"
