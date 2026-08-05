@@ -53,7 +53,7 @@ export default function Navbar() {
           ))}
 
           <a
-            href="https://wa.me/919183269700?text=Namaste%20Trip%20Mosaic%2C%20mujhe%20trip%20plan%20karni%20hai."
+            href="https://wa.me/917389842730?text=TM-WEB%20%7C%20Hello%20Trip%20Mosaic%2C%20I%27m%20planning%20a%20journey%20through%20your%20website.%20Please%20help%20me%20with%20the%20destination%2C%20travel%20dates%2C%20number%20of%20travellers%2C%20and%20starting%20city."
             target="_blank"
             rel="noreferrer"
             className="rounded-full bg-amber-300 px-5 py-2.5 text-sm font-bold text-black transition hover:bg-amber-200"
@@ -90,7 +90,7 @@ export default function Navbar() {
             ))}
 
             <a
-              href="https://wa.me/917000114755?text=Namaste%20Trip%20Mosaic%2C%20mujhe%20trip%20plan%20karni%20hai."
+              href="https://wa.me/917389842730?text=TM-WEB%20%7C%20Hello%20Trip%20Mosaic%2C%20I%27m%20planning%20a%20journey%20through%20your%20website.%20Please%20help%20me%20with%20the%20destination%2C%20travel%20dates%2C%20number%20of%20travellers%2C%20and%20starting%20city."
               target="_blank"
               rel="noreferrer"
               onClick={closeMenu}
