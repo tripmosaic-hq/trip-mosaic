@@ -9,8 +9,6 @@ type TripHeroProps = {
 
 const phoneNumber = "+919183269700";
 
-const whatsappMessage =
-  "Namaste Trip Mosaic, mujhe is journey ke baare mein jaankari chahiye. Kripya guide karein.";
 
 export default function TripHero({
   title,
@@ -20,10 +18,13 @@ export default function TripHero({
   bestSeason,
   imageUrl,
 }: TripHeroProps) {
-  const whatsappUrl = `https://wa.me/919183269700?text=${encodeURIComponent(
-    whatsappMessage
-  )}`;
+  
+const whatsappMessage =
+  `TM-WEB | Hello Trip Mosaic, I’m interested in the ${title} itinerary listed on your website. Please share the available dates, complete itinerary, inclusions, exclusions, pricing, and booking guidance.`;
 
+const whatsappUrl = `https://wa.me/917389842730?text=${encodeURIComponent(
+  whatsappMessage
+)}`;
   return (
     <section
       className="relative overflow-hidden bg-black px-5 pb-16 pt-32 text-white sm:px-8 lg:px-12"
