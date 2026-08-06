@@ -3,14 +3,14 @@ import Link from "next/link";
 import StickyContact from "@/components/StickyContact";
 
 export const metadata: Metadata = {
-  title: "Do Dham Yatra 5 Days / 4 Nights | Trip Mosaic",
+  title: "Shri Kedarnath - Badrinath (Do Dham Yatra) 5 Days / 4 Nights | Trip Mosaic",
   description:
-    "Kedarnath and Badrinath Do Dham Yatra from Haridwar with hotels, camps, vegetarian meals, transport and Trip Mosaic support.",
+    "Shri Kedarnath and Badrinath Do Dham Yatra from Haridwar with hotels, camps, vegetarian meals, transport and Trip Mosaic support.",
 };
 
 const PHONE = "+919183269700";
-const WHATSAPP = `https://wa.me/919183269700?text=${encodeURIComponent(
-  "Namaste Trip Mosaic, mujhe Do Dham Yatra 5D/4N ke baare mein jaankari chahiye."
+const WHATSAPP = `https://wa.me/917389842730?text=${encodeURIComponent(
+  "TM-WEB | Hello Trip Mosaic, I'm interested in the Shri Kedarnath and Badrinath Do Dham Yatra 5 Days / 4 Nights itinerary listed on your website. Please share the available dates, complete itinerary, hotel and camp arrangements, inclusions, exclusions, pricing, registration guidance, and booking process."
 )}`;
 
 const heroImage =
@@ -208,8 +208,8 @@ export default function DoDhamYatraPage() {
             Sacred Himalayan Journey
           </p>
           <h1 className="mt-5 max-w-5xl font-serif text-4xl font-semibold leading-tight sm:text-6xl lg:text-7xl">
-            Do Dham Yatra
-            <span className="block text-amber-300">Kedarnath & Badrinath</span>
+            Shri Kedarnath - Badrinath
+<span className="block text-amber-300">(Do Dham Yatra)</span>
           </h1>
           <p className="mt-6 max-w-3xl text-base leading-8 text-stone-200 sm:text-lg">
             A 5 Days / 4 Nights pilgrimage from Haridwar covering Kedarnath,
