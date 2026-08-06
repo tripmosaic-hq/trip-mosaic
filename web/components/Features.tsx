@@ -56,10 +56,15 @@ const packages = [
       "A legendary Himalayan expedition planned with preparation, safety guidance and reliable local coordination.",
     href: "/everest-base-camp/",
   },
-];
-
+{
+  category: "INTERNATIONAL TREK",
+  title: "Annapurna Base Camp",
+  description:
+    "A classic Himalayan trek from Pokhara through Gurung villages, forests and high-altitude landscapes to Annapurna Base Camp.",
+  href: "/annapurna-base-camp/",
+},
+  ];
 const whatsappNumber = "917389842730";
-
 export default function Features() {
   return (
     <section
