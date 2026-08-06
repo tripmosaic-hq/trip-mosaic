@@ -91,6 +91,13 @@ const packages = [
     "A 5 Days / 4 Nights Himalayan journey from Delhi combining Tibetan culture, local sightseeing, Triund trekking, camping and Volvo transfers.",
   href: "/mcleodganj-triund/",
 },
+  {
+  category: "ROAD EXPEDITION",
+  title: "Summer Spiti Expedition",
+  description:
+    "An 8 Nights / 9 Days Himalayan road expedition from Delhi through Shimla, Kinnaur, Spiti Valley, Chandratal Lake, Atal Tunnel and Manali.",
+  href: "/summer-spiti-expedition/",
+},
   ];
 const whatsappNumber = "917389842730";
 export default function Features() {
