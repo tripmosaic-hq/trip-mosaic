@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 };
 
 const PHONE = "+919183269700";
-const WHATSAPP = `https://wa.me/919183269700?text=${encodeURIComponent(
-  "Namaste Trip Mosaic, mujhe Annapurna Base Camp Trek 7D/6N ke baare mein jaankari chahiye."
+const WHATSAPP = `https://wa.me/917389842730?text=${encodeURIComponent(
+  "TM-WEB | Hello Trip Mosaic, I'm interested in the Annapurna Base Camp Trek 7 Days / 6 Nights itinerary listed on your website. Please share the available dates, complete itinerary, inclusions, exclusions, permits, accommodation, pricing, preparation guidance, and booking process."
 )}`;
 
 const heroImage =
