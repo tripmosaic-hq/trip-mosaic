@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 };
 
 const PHONE = "+919183269700";
-const WHATSAPP = `https://wa.me/919183269700?text=${encodeURIComponent(
-  "Namaste Trip Mosaic, mujhe Kashmir Premium 5N/6D package ke baare mein jaankari chahiye."
+const WHATSAPP = `https://wa.me/917389842730?text=${encodeURIComponent(
+  "TM-WEB | Hello Trip Mosaic, I'm interested in the Kashmir Premium 5 Nights / 6 Days itinerary listed on your website. Please share the available dates, complete itinerary, hotel and houseboat options, inclusions, exclusions, pricing, and booking guidance."
 )}`;
 
 const heroImage =
