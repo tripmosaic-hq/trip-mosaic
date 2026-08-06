@@ -84,6 +84,13 @@ const packages = [
     "A complete 10 Days / 9 Nights sacred Himalayan journey from Haridwar covering Yamunotri, Gangotri, Kedarnath and Badrinath.",
   href: "/char-dham-yatra/",
 },
+  {
+  category: "TREK",
+  title: "McLeodganj & Triund Trek",
+  description:
+    "A 5 Days / 4 Nights Himalayan journey from Delhi combining Tibetan culture, local sightseeing, Triund trekking, camping and Volvo transfers.",
+  href: "/mcleodganj-triund/",
+},
   ];
 const whatsappNumber = "917389842730";
 export default function Features() {
