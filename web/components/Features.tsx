@@ -98,6 +98,13 @@ const packages = [
     "An 8 Nights / 9 Days Himalayan road expedition from Delhi through Shimla, Kinnaur, Spiti Valley, Chandratal Lake, Atal Tunnel and Manali.",
   href: "/summer-spiti-expedition/",
 },
+  {
+  category: "WINTER ROAD EXPEDITION",
+  title: "Winter Spiti Expedition",
+  description:
+    "An 8 Nights / 9 Days high-altitude winter journey from Delhi through Shimla, Sarahan, Sangla, Chitkul, Nako, Tabo, Kaza and Kalpa.",
+  href: "/winter-spiti-expedition/",
+},
   ];
 const whatsappNumber = "917389842730";
 export default function Features() {
