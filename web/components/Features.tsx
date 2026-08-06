@@ -77,6 +77,13 @@ const packages = [
     "A thoughtfully planned 5 Days / 4 Nights pilgrimage from Haridwar covering Shri Kedarnath and Shri Badrinath with accommodation, transport and journey support.",
   href: "/do-dham-yatra/",
 },
+  {
+  category: "PILGRIMAGE",
+  title: "Char Dham Yatra",
+  description:
+    "A complete 10 Days / 9 Nights sacred Himalayan journey from Haridwar covering Yamunotri, Gangotri, Kedarnath and Badrinath.",
+  href: "/char-dham-yatra/",
+},
   ];
 const whatsappNumber = "917389842730";
 export default function Features() {
