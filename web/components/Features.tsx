@@ -70,6 +70,13 @@ const packages = [
     "A 5-day Himalayan crossover trek from Manali through forests, alpine valleys, Hampta Pass and the dramatic landscapes near Chhatru.",
   href: "/hampta-pass/",
 },
+  {
+  category: "PILGRIMAGE",
+  title: "Shri Kedarnath - Badrinath (Do Dham Yatra)",
+  description:
+    "A thoughtfully planned 5 Days / 4 Nights pilgrimage from Haridwar covering Shri Kedarnath and Shri Badrinath with accommodation, transport and journey support.",
+  href: "/do-dham-yatra/",
+},
   ];
 const whatsappNumber = "917389842730";
 export default function Features() {
