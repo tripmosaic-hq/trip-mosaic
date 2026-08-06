@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 };
 
 const PHONE = "+919183269700";
-const WHATSAPP = `https://wa.me/919183269700?text=${encodeURIComponent(
-  "Namaste Trip Mosaic, mujhe Hampta Pass Trek 5D/4N ke baare mein jaankari chahiye."
+const WHATSAPP = `https://wa.me/917389842730?text=${encodeURIComponent(
+  "TM-WEB | Hello Trip Mosaic, I'm interested in the Hampta Pass Trek 5 Days / 4 Nights itinerary listed on your website. Please share the available dates, complete itinerary, inclusions, exclusions, camping arrangements, pricing, preparation guidance, and booking process."
 )}`;
 
 const heroImage =
