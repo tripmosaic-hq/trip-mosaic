@@ -40,18 +40,21 @@ const packages = [
     title: "Chopta–Tungnath–Chandrashila",
     description:
       "A short Himalayan escape featuring ancient Tungnath Temple and panoramic Chandrashila summit views.",
+    href: "/chopta-tungnath/",
   },
   {
     category: "FAMILY HOLIDAY",
     title: "Kashmir Premium",
     description:
       "A comfortable Kashmir experience designed around scenic stays, transparent planning and personal support.",
+    href: "/kashmir-premium/",
   },
   {
     category: "INTERNATIONAL TREK",
     title: "Everest Base Camp",
     description:
       "A legendary Himalayan expedition planned with preparation, safety guidance and reliable local coordination.",
+    href: "/everest-base-camp/",
   },
 ];
 
