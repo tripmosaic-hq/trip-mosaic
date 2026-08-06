@@ -63,6 +63,13 @@ const packages = [
     "A classic Himalayan trek from Pokhara through Gurung villages, forests and high-altitude landscapes to Annapurna Base Camp.",
   href: "/annapurna-base-camp/",
 },
+  {
+  category: "TREK",
+  title: "Hampta Pass Trek",
+  description:
+    "A 5-day Himalayan crossover trek from Manali through forests, alpine valleys, Hampta Pass and the dramatic landscapes near Chhatru.",
+  href: "/hampta-pass/",
+},
   ];
 const whatsappNumber = "917389842730";
 export default function Features() {
