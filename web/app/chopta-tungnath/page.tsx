@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 };
 
 const PHONE = "+919183269700";
-const WHATSAPP = `https://wa.me/919183269700?text=${encodeURIComponent(
-  "Namaste Trip Mosaic, mujhe Chopta Tungnath Chandrashila 3D/2N trek ke baare mein jaankari chahiye."
+const WHATSAPP = `https://wa.me/917389842730?text=${encodeURIComponent(
+  "TM-WEB | Hello Trip Mosaic, I'm interested in the Chopta Tungnath Chandrashila Trek 3 Days / 2 Nights itinerary listed on your website. Please share the available dates, complete itinerary, inclusions, exclusions, pricing, and booking guidance."
 )}`;
 
 const heroImage =
